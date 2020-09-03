@@ -9,6 +9,7 @@ import java.util.List;
 
 public interface TagService {
 
+    //保存标签
     Tag saveTag(Tag tag);
 
     Tag getTag(Long id);
